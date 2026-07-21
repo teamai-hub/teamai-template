@@ -18,9 +18,13 @@ teamai init --repo https://github.com/Your-fork-org/team-template
 
 ### skills
 
-- **GitHub 开源的热门后端 skill**（来源见下方「来源与许可」）：
-  `backend-patterns`、`api-design`、`database-migrations`、`error-handling`、
-  `tdd-workflow`、`security-review`。
+按上游来源分命名空间存放（详见下方「来源与许可」）：
+
+- **`skills/ecc/`**（后端内容型）：`backend-patterns`、`api-design`、
+  `database-migrations`、`error-handling`、`tdd-workflow`、`security-review`。
+- **`skills/mattpocock/`**（工程方法型）：`tdd`、`research`、`domain-modeling`。
+- **`skills/karpathy/`**（⚠️ 上游无 license，仅供内部评审，公开分发前须先确认授权）：
+  `karpathy-guidelines`。
 
 ### rules
 
@@ -38,12 +42,20 @@ teamai init --repo https://github.com/Your-fork-org/team-template
 
 ## 来源与许可
 
-本模板内的 `skills/`、`rules/`、`agents/` 内容改编自开源项目
-[everything-claude-code](https://github.com/affaan-m/everything-claude-code)（作者 Affaan Mustafa，**MIT 许可**）。
+本模板内容改编自多个开源项目，按来源分命名空间存放：
 
-- 完整 MIT 许可原文见 [`LICENSE`](./LICENSE)。
+| 命名空间 | 上游 | 许可 |
+|---|---|---|
+| `skills/ecc/`、`rules/common/`、`agents/` | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT |
+| `skills/mattpocock/` | [mattpocock/skills](https://github.com/mattpocock/skills) | ✅ MIT |
+| `skills/karpathy/` | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | ⚠️ **无 license** |
+
+- MIT 许可原文见 [`LICENSE`](./LICENSE)（ECC）及 [`skills/mattpocock/LICENSE`](./skills/mattpocock/LICENSE)。
 - 每个文件与上游的路径对应关系见 [`ATTRIBUTION.md`](./ATTRIBUTION.md)。
 
-> 复制、修改、再分发均遵循 MIT 条款；请保留上述版权与许可声明。
+> ⚠️ **`skills/karpathy/` 上游未声明 license**，默认保留全部版权。当前仅在此私密仓库内供评审，
+> **公开分发前必须先取得授权或改为链接引用**，不可直接复制分发。
+>
+> MIT 部分的复制、修改、再分发均遵循 MIT 条款；请保留版权与许可声明。
 
 ### 如有建议请直接提 issue/PR

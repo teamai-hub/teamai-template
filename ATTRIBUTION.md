@@ -1,24 +1,42 @@
 # Attribution
 
-The content in this repository (`skills/`, `rules/`, `agents/`) is adapted from
-[everything-claude-code](https://github.com/affaan-m/everything-claude-code)
-by Affaan Mustafa, licensed under the MIT License.
+Content in this repository is adapted from several open-source projects.
+Each skill lives under a namespace named after its upstream source.
 
-See [`LICENSE`](./LICENSE) for the full MIT license text and copyright notice.
+## Sources
 
-## Source mapping
+| Namespace | Upstream | License | Notes |
+|---|---|---|---|
+| `skills/ecc/` | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT | see root [`LICENSE`](./LICENSE) |
+| `skills/mattpocock/` | [mattpocock/skills](https://github.com/mattpocock/skills) | ✅ MIT | see [`skills/mattpocock/LICENSE`](./skills/mattpocock/LICENSE) |
+| `rules/common/` | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT | |
+| `agents/` | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT | |
+| `skills/karpathy/` | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | ⚠️ **NONE** | **No license declared upstream — do NOT publicly redistribute until authorization is confirmed. Included here for private review only.** |
 
-| Local path | Upstream path |
+## Per-file mapping
+
+### skills/ecc/  (MIT — affaan-m/everything-claude-code)
+| Local | Upstream |
 |---|---|
-| `skills/backend-patterns/SKILL.md`      | `skills/backend-patterns/SKILL.md` |
-| `skills/api-design/SKILL.md`            | `skills/api-design/SKILL.md` |
-| `skills/database-migrations/SKILL.md`   | `skills/database-migrations/SKILL.md` |
-| `skills/error-handling/SKILL.md`        | `skills/error-handling/SKILL.md` |
-| `skills/tdd-workflow/SKILL.md`          | `skills/tdd-workflow/SKILL.md` |
-| `skills/security-review/`               | `skills/security-review/` |
-| `rules/common/`                         | `rules/common/` |
-| `agents/code-reviewer.md`               | `agents/code-reviewer.md` |
-| `agents/database-reviewer.md`           | `agents/database-reviewer.md` |
-| `agents/security-reviewer.md`           | `agents/security-reviewer.md` |
+| `skills/ecc/backend-patterns/SKILL.md`    | `skills/backend-patterns/SKILL.md` |
+| `skills/ecc/api-design/SKILL.md`          | `skills/api-design/SKILL.md` |
+| `skills/ecc/database-migrations/SKILL.md` | `skills/database-migrations/SKILL.md` |
+| `skills/ecc/error-handling/SKILL.md`      | `skills/error-handling/SKILL.md` |
+| `skills/ecc/tdd-workflow/SKILL.md`        | `skills/tdd-workflow/SKILL.md` |
+| `skills/ecc/security-review/`             | `skills/security-review/` |
+| `rules/common/`                           | `rules/common/` |
+| `agents/{code-reviewer,database-reviewer,security-reviewer}.md` | `agents/` |
+
+### skills/mattpocock/  (MIT — mattpocock/skills)
+| Local | Upstream |
+|---|---|
+| `skills/mattpocock/tdd/`             | `skills/engineering/tdd/` |
+| `skills/mattpocock/research/`        | `skills/engineering/research/` |
+| `skills/mattpocock/domain-modeling/` | `skills/engineering/domain-modeling/` |
+
+### skills/karpathy/  (⚠️ NO LICENSE — multica-ai/andrej-karpathy-skills)
+| Local | Upstream |
+|---|---|
+| `skills/karpathy/karpathy-guidelines/SKILL.md` | `skills/karpathy-guidelines/SKILL.md` |
 
 Fetched for review on 2026-07-21.
