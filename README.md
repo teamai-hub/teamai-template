@@ -22,7 +22,8 @@ teamai init --repo https://github.com/Your-fork-org/team-template
 
 - **`skills/ecc/`**（后端内容型）：`backend-patterns`、`api-design`、
   `database-migrations`、`error-handling`、`tdd-workflow`、`security-review`。
-- **`skills/mattpocock/`**（工程方法型）：`tdd`、`research`、`domain-modeling`。
+- **`skills/mattpocock/`**（工程方法型）：`tdd`、`research`、`domain-modeling`、
+  `grill-me` + `grilling`（配套：反复追问、逐个敲定方案决策）。
 - **`skills/karpathy/`**（⚠️ 上游无 license，仅供内部评审，公开分发前须先确认授权）：
   `karpathy-guidelines`。
 

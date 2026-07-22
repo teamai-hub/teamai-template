@@ -33,6 +33,8 @@ Each skill lives under a namespace named after its upstream source.
 | `skills/mattpocock/tdd/`             | `skills/engineering/tdd/` |
 | `skills/mattpocock/research/`        | `skills/engineering/research/` |
 | `skills/mattpocock/domain-modeling/` | `skills/engineering/domain-modeling/` |
+| `skills/mattpocock/grill-me/`        | `skills/productivity/grill-me/` |
+| `skills/mattpocock/grilling/`        | `skills/productivity/grilling/` |
 
 ### skills/karpathy/  (⚠️ NO LICENSE — multica-ai/andrej-karpathy-skills)
 | Local | Upstream |
