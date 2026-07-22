@@ -1,62 +1,66 @@
-# teamai-cli 后端工程师参考模板
+**English** | [中文](./README.zh-CN.md)
 
-## 如何使用
+# teamai-cli Backend Engineer Reference Template
 
-安装 teamai-cli，
+## Usage
+
+Install teamai-cli:
 ```sh
 npm install -g teamai-cli
 ```
 
-将此仓库 fork 到你所在团队的 git 目录下（需要确保团队成员都是 master），并用 fork 后的仓库初始化 teamai-cli
+Fork this repository into your team's git namespace (make sure all team members are `master`), then initialize teamai-cli with your fork:
 ```sh
-teamai init --repo https://github.com/Your-fork-org/team-template
+teamai init --repo https://github.com/Your-fork-org/template-backend
 ```
 
-- 也可直接将这个文件的内容及你 fork 的仓库交给 AI 安装、初始化
+- Alternatively, hand this file and your forked repo to an AI to install and initialize for you.
 
-## 模板内置的数据
+## What's in the template
 
 ### skills
 
-按上游来源分命名空间存放（详见下方「来源与许可」）：
+Organized into namespaces by upstream source (see "Sources & License" below):
 
-- **`skills/ecc/`**（后端内容型）：`backend-patterns`、`api-design`、
-  `database-migrations`、`error-handling`、`tdd-workflow`、`security-review`。
-- **`skills/mattpocock/`**（工程方法型）：`tdd`、`research`、`domain-modeling`、
-  `grill-me` + `grilling`（配套：反复追问、逐个敲定方案决策）。
-- **`skills/karpathy/`**（⚠️ 上游无 license，仅供内部评审，公开分发前须先确认授权）：
-  `karpathy-guidelines`。
+- **`skills/ecc/`** (backend content): `backend-patterns`, `api-design`,
+  `database-migrations`, `error-handling`, `tdd-workflow`, `security-review`.
+- **`skills/mattpocock/`** (engineering methodology): `tdd`, `research`, `domain-modeling`,
+  `grill-me` + `grilling` (a pair: relentless questioning to nail down design decisions).
+- **`skills/karpathy/`** (⚠️ no upstream license — internal review only; confirm authorization
+  before public distribution): `karpathy-guidelines`.
 
 ### rules
 
-- **全员共享基线**（`rules/common/`）：编码风格、代码评审、测试、Git 工作流、安全、
-  性能等（来源见下方「来源与许可」）。
+- **Shared baseline for everyone** (`rules/common/`): coding style, code review, testing,
+  Git workflow, security, performance, and more (source below).
 
 ### agents
 
-- **后端评审子代理**：`code-reviewer`、`database-reviewer`、`security-reviewer`
-  （来源见下方「来源与许可」）。
+- **Backend review subagents**: `code-reviewer`, `database-reviewer`, `security-reviewer`
+  (source below).
 
-### 环境变量
+### Environment variables
 
-仅作示例，管理员可自行调整团队级的环境变量。
+Examples only — admins can adjust team-level environment variables as needed.
 
-## 来源与许可
+## Sources & License
 
-本模板内容改编自多个开源项目，按来源分命名空间存放：
+The content here is adapted from several open-source projects, organized into namespaces by source:
 
-| 命名空间 | 上游 | 许可 |
+| Namespace | Upstream | License |
 |---|---|---|
-| `skills/ecc/`、`rules/common/`、`agents/` | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT |
+| `skills/ecc/`, `rules/common/`, `agents/` | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT |
 | `skills/mattpocock/` | [mattpocock/skills](https://github.com/mattpocock/skills) | ✅ MIT |
-| `skills/karpathy/` | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | ⚠️ **无 license** |
+| `skills/karpathy/` | [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | ⚠️ **NONE** |
 
-- MIT 许可原文见 [`LICENSE`](./LICENSE)（ECC）及 [`skills/mattpocock/LICENSE`](./skills/mattpocock/LICENSE)。
-- 每个文件与上游的路径对应关系见 [`ATTRIBUTION.md`](./ATTRIBUTION.md)。
+- Full MIT license text: [`LICENSE`](./LICENSE) (ECC) and [`skills/mattpocock/LICENSE`](./skills/mattpocock/LICENSE).
+- Per-file upstream path mapping: [`ATTRIBUTION.md`](./ATTRIBUTION.md).
 
-> ⚠️ **`skills/karpathy/` 上游未声明 license**，默认保留全部版权。当前仅在此私密仓库内供评审，
-> **公开分发前必须先取得授权或改为链接引用**，不可直接复制分发。
+> ⚠️ **`skills/karpathy/` has no license declared upstream** — all rights reserved by default.
+> It is included here **only for private review**. **Confirm authorization or switch to a
+> reference/link before any public distribution**; do not copy or redistribute it as-is.
 >
-> MIT 部分的复制、修改、再分发均遵循 MIT 条款；请保留版权与许可声明。
+> The MIT-licensed content may be copied, modified, and redistributed under MIT terms;
+> retain the copyright and license notices.
 
-### 如有建议请直接提 issue/PR
+### Suggestions? Open an issue / PR.
