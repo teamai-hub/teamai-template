@@ -11,7 +11,6 @@ Each skill lives under a namespace named after its upstream source.
 | `skills/mattpocock/` | [mattpocock/skills](https://github.com/mattpocock/skills) | ✅ MIT | see [`skills/mattpocock/LICENSE`](./skills/mattpocock/LICENSE) |
 | `rules/common/` | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT | |
 | `agents/` | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ✅ MIT | |
-| `skills/karpathy/` | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | ⚠️ **NONE** | **No license declared upstream — do NOT publicly redistribute until authorization is confirmed. Included here for private review only.** |
 
 ## Per-file mapping
 
@@ -35,10 +34,5 @@ Each skill lives under a namespace named after its upstream source.
 | `skills/mattpocock/domain-modeling/` | `skills/engineering/domain-modeling/` |
 | `skills/mattpocock/grill-me/`        | `skills/productivity/grill-me/` |
 | `skills/mattpocock/grilling/`        | `skills/productivity/grilling/` |
-
-### skills/karpathy/  (⚠️ NO LICENSE — multica-ai/andrej-karpathy-skills)
-| Local | Upstream |
-|---|---|
-| `skills/karpathy/karpathy-guidelines/SKILL.md` | `skills/karpathy-guidelines/SKILL.md` |
 
 Fetched for review on 2026-07-21.
