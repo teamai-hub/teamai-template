@@ -4,17 +4,17 @@
 
 ## 如何使用
 
-安装 teamai-cli，
+安装 teamai-cli:
 ```sh
 npm install -g teamai-cli
 ```
 
-将此仓库 fork 到你所在团队的 git 目录下（需要确保团队成员都是 master），并用 fork 后的仓库初始化 teamai-cli
+点击本页顶部的 **Use this template**,在你所在团队的 git 目录下生成自己的仓库(history 干净、无 fork 关系),然后用它初始化 teamai-cli:
 ```sh
-teamai init --repo https://github.com/Your-fork-org/template-backend
+teamai init https://github.com/<你的-org>/<你的-repo>
 ```
 
-- 也可直接将这个文件的内容及你 fork 的仓库交给 AI 安装、初始化
+- 也可直接将这个文件的内容及你的新仓库交给 AI 安装、初始化
 
 ## 模板内置的数据
 
