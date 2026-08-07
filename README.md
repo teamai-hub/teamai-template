@@ -9,12 +9,12 @@ Install teamai-cli:
 npm install -g teamai-cli
 ```
 
-Fork this repository into your team's git namespace (make sure all team members are `master`), then initialize teamai-cli with your fork:
+Click **Use this template** at the top of this page to create your own repo (clean history, no fork link) in your team's namespace, then initialize teamai-cli against it:
 ```sh
-teamai init --repo https://github.com/Your-fork-org/template-backend
+teamai init https://github.com/<your-org>/<your-repo>
 ```
 
-- Alternatively, hand this file and your forked repo to an AI to install and initialize for you.
+- Alternatively, hand this file and your new repo to an AI to install and initialize for you.
 
 ## What's in the template
 
