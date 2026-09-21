@@ -1,6 +1,6 @@
 [English](./README.md) | **中文**
 
-# teamai-cli 后端工程师参考模板
+# teamai-cli 参考模板
 
 ## 如何使用
 
@@ -22,7 +22,7 @@ teamai init https://github.com/<你的-org>/<你的-repo>
 
 按上游来源分命名空间存放（详见下方「来源与许可」）：
 
-- **`skills/ecc/`**（后端内容型）：`backend-patterns`、`api-design`、
+- **`skills/ecc/`**（工程实践）：`backend-patterns`、`api-design`、
   `database-migrations`、`error-handling`、`tdd-workflow`、`security-review`。
 - **`skills/mattpocock/`**（工程方法型）：`tdd`、`research`、`domain-modeling`、
   `grill-me` + `grilling`（配套：反复追问、逐个敲定方案决策）。
@@ -34,7 +34,7 @@ teamai init https://github.com/<你的-org>/<你的-repo>
 
 ### agents
 
-- **后端评审子代理**：`code-reviewer`、`database-reviewer`、`security-reviewer`
+- **评审子代理**：`code-reviewer`、`database-reviewer`、`security-reviewer`
   （来源见下方「来源与许可」）。
 
 ### 环境变量

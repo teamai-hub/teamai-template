@@ -1,6 +1,6 @@
 **English** | [中文](./README.zh-CN.md)
 
-# teamai-cli Backend Engineer Reference Template
+# teamai-cli Reference Template
 
 ## Usage
 
@@ -22,7 +22,7 @@ teamai init https://github.com/<your-org>/<your-repo>
 
 Organized into namespaces by upstream source (see "Sources & License" below):
 
-- **`skills/ecc/`** (backend content): `backend-patterns`, `api-design`,
+- **`skills/ecc/`** (engineering practices): `backend-patterns`, `api-design`,
   `database-migrations`, `error-handling`, `tdd-workflow`, `security-review`.
 - **`skills/mattpocock/`** (engineering methodology): `tdd`, `research`, `domain-modeling`,
   `grill-me` + `grilling` (a pair: relentless questioning to nail down design decisions).
@@ -34,7 +34,7 @@ Organized into namespaces by upstream source (see "Sources & License" below):
 
 ### agents
 
-- **Backend review subagents**: `code-reviewer`, `database-reviewer`, `security-reviewer`
+- **Review subagents**: `code-reviewer`, `database-reviewer`, `security-reviewer`
   (source below).
 
 ### Environment variables
